@@ -3,16 +3,15 @@
 
 <head>
   <title>Calendar</title>
-  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 
 <body>
   <header>
     <h1>Calendar</h1>
   </header>
-  <div class='events-container'>
 
-  </div>
+  <div id="calendar"></div>
 
   <section class='new-event-form'>
     <form>
@@ -28,11 +27,16 @@
       </select>
       <label for="create-event-input-category">Category:</label>
       <input type="text" name="new-event-category" id="create-event-input-category" placeholder="Event Category">
+      <input type="submit" class="create-event-submit-button">
     </form>
   </section>
 
+  <div class='events-container'>
+  </div>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="./scripts.js"></script>
+  <script src="js/jquery-ui-datepicker.min.js"></script>
+    <script src="./scripts.js"></script>
 </body>
 
 </html>
