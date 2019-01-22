@@ -2,7 +2,7 @@
   "name": "calendar-fe",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "scripts.js",
   "directories": {
     "lib": "lib",
     "test": "test"
@@ -31,8 +31,9 @@
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^10.0.1",
-    "babel-loader": "^8.0.5",
+    "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
     "css-loader": "^2.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.29.0",
