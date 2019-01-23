@@ -1,10 +1,26 @@
 .events-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  align-items: center;
 }
 
 .event-article {
   border: 5px solid;
   width: 90%;
+}
+
+.new-event-form-container {
+  border: 1px solid black;
+  margin: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+input, select {
+  width: 50%;
+  margin: 0 auto;
 }
