@@ -1,3 +1,12 @@
+.calendar-container {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.mini-event-container {
+  border: 1px solid black;
+}
+
 .events-container {
   display: flex;
   flex-direction: column;
@@ -6,6 +15,16 @@
 
 .event-article {
   border: 5px solid;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event-details-container, .event-task-container {
+  width: 50%;
+}
+
+.event-details-container p {
   width: 90%;
 }
 
