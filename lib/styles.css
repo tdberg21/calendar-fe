@@ -1,10 +1,45 @@
+.calendar-container {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.mini-event-container {
+  border: 1px solid black;
+}
+
 .events-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  align-items: center;
 }
 
 .event-article {
   border: 5px solid;
   width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event-details-container, .event-task-container {
+  width: 50%;
+}
+
+.event-details-container p {
+  width: 90%;
+}
+
+.new-event-form-container {
+  border: 1px solid black;
+  margin: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+input, select {
+  width: 50%;
+  margin: 0 auto;
 }
